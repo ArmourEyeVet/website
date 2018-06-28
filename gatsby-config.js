@@ -1,8 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: "Gatsby Starter - Stellar by HTML5 UP",
-    author: "Hunter Chang",
-    description: "A Gatsby.js Starter based on Stellar by HTML5 UP"
+    title: "Armour Veterinary Ophthalmology (AVO)",
+    author: "Phil Armour",
+    description: "Armour Veterinary Ophthalmology (AVO) is a DC veterinary speciality clinic that provides services for all of your pet's eye care needs.",
+    siteUrl: `https://ArmourEyeVet.com`
   },
   pathPrefix: '/',
   plugins: [
@@ -51,6 +52,9 @@ module.exports = {
         // Avoids sending pageview hits from custom paths
         exclude: [],
       },
-    }
+    },
+    {
+      resolve: `gatsby-plugin-sitemap`,
+    },
   ],
 }

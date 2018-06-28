@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-stellar",
-  "description": "Gatsby Starter - Stellar by HTML5 UP",
+  "name": "website",
+  "description": "Website for Armour Veterinary Ophthalmology (AVO) - built with GatsbyJS using Stellar by HTML5 UP",
   "version": "1.0.0",
-  "author": "Hunter Chang",
+  "author": "Phil Armour",
   "dependencies": {
     "gatsby": "^1.9.235",
     "gatsby-image": "^1.0.42",
@@ -11,6 +11,7 @@
     "gatsby-plugin-react-helmet": "^1.0.8",
     "gatsby-plugin-sass": "^1.0.23",
     "gatsby-plugin-sharp": "^1.6.41",
+    "gatsby-plugin-sitemap": "^1.2.25",
     "gatsby-remark-copy-linked-files": "^1.5.30",
     "gatsby-remark-images": "^1.5.56",
     "gatsby-source-filesystem": "^1.5.27",
@@ -21,15 +22,21 @@
     "react-scrollspy": "^3.3.5",
     "react-waypoint": "^8.0.1"
   },
-  "homepage": "https://github.com/ChangoMan/gatsby-starter-stellar",
+  "homepage": "https://github.com/ArmourEyeVet/website",
   "keywords": [
-    "gatsby"
+    "gatsby",
+    "armour",
+    "veterinary",
+    "ophthalmology",
+    "pet",
+    "eyes",
+    "AVO"
   ],
   "license": "MIT",
   "main": "n/a",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ChangoMan/gatsby-starter-stellar.git"
+    "url": "https://github.com/ArmourEyeVet/website.git"
   },
   "scripts": {
     "dev": "gatsby develop",
