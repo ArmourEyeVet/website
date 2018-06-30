@@ -3,7 +3,7 @@ module.exports = {
     title: "Armour Veterinary Ophthalmology (AVO)",
     author: "Phil Armour",
     description: "Armour Veterinary Ophthalmology (AVO) is a DC veterinary speciality clinic that provides services for all of your pet's eye care needs.",
-    siteUrl: `https://ArmourEyeVet.com`
+    siteUrl: "https://ArmourEyeVet.com",
   },
   pathPrefix: '/',
   plugins: [
