@@ -20,10 +20,10 @@
 		}
 
 		&.alt {
-			@include padding(6em, 5em, (1em, 0, 0, 0));
+			@include padding(2em, 5em, (1em, 0, 0, 0));
 
-			h1 {
-				font-size: 3.25em;
+			h2 {
+				font-size: 2.25em;
 			}
 
 			> * {
@@ -34,12 +34,11 @@
 
 			.logo {
 				@include vendor('transition', (
-					'opacity 1.25s ease',
-					'transform 0.5s ease'
+					'opacity 1.25s ease'
 				));
 				@include vendor('transition-delay', '0s');
 				display: block;
-				margin: 0 0 (_size(element-margin) * 0.75) 0;
+				margin: 0 0 (_size(element-margin) * 0.25) 0;
 
 				img {
 					display: block;

@@ -28,19 +28,19 @@
 
 // Palette.
 	$palette: (
-		bg:					#935d8c,
-		fg:					rgba(255,255,255,0.65),
-		fg-bold:			#ffffff,
-		fg-light:			rgba(255,255,255,0.5),
-		border:				rgba(255,255,255,0.35),
-		border-bg:			rgba(255,255,255,0.075),
-		border2:			rgba(255,255,255,0.75),
-		border2-bg:			rgba(255,255,255,0.2),
+		bg:					#EFFAFF,
+		fg:					rgba(60, 55, 68,0.65),
+		fg-bold:			rgba(60, 55, 68,1),
+		fg-light:			rgba(60, 55, 68,0.5),
+		border:				rgba(60, 55, 68,0.35),
+		border-bg:			rgba(60, 55, 68,0.075),
+		border2:			rgba(60, 55, 68,0.75),
+		border2-bg:			rgba(60, 55, 68,0.2),
 
 		invert: (
-			bg:				#ffffff,
-			bg-alt:			#f7f7f7,
-			fg:				#636363,
+			bg:				#dddddd,
+			bg-alt:			#090C9B,
+			fg:				rgba(60, 55, 68, 1),
 			fg-bold:		#636363,
 			fg-light:		rgba(99,99,99,0.25),
 			border:			#dddddd,
@@ -49,12 +49,25 @@
 			border2-bg:		rgba(222,222,222,0.5),
 		),
 
+		nav: (
+			bg:				rgb(87, 86, 88),
+			bg-alt:			#090C9B,
+			fg:				rgba(239, 250, 255, 0.65),
+			fg-bold:		rgba(239, 250, 255, 1),
+			fg-light:		rgba(99,99,99,0.25),
+			border:			#dddddd,
+			border-bg:		rgba(222,222,222,0.25),
+			border2:		#dddddd,
+			border2-bg:		rgba(222,222,222,0.5),
+		),
+
+
 		accent:				#8cc9f0,
 		accent1:			#efa8b0,
 		accent2:			#c79cc8,
 		accent3:			#a89cc8,
 		accent4:			#9bb2e1,
 		accent5:			#8cc9f0,
-		bg1:				#e37682,
-		bg2:				#5f4d93
+		bg1:				#1158FF,
+		bg2:				#EFFAFF
 	);
