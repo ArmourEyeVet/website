@@ -1,13 +1,10 @@
-# gatsby-starter-stellar
-Gatsby starter based on the Stellar site template, designed by [HTML5 UP](https://html5up.net/stellar). Check out https://codebushi.com/gatsby-starters/ for more Gatsby starters and templates.
+# Website for Armour Veterinary Ophthalmology
+Website for Armour Veterinary Ophthalmology (AVO) built with [GatsbyJS](https://www.gatsbyjs.org/) and the Stellar template, designed by [HTML5 UP](https://html5up.net/stellar).
 
-## Preview
+## Production Hosted
 
-http://gatsby-stellar.surge.sh/
+https://armoureyevet.com
 
-## Installation
-
-Install this starter (assuming Gatsby is installed) by running from your CLI:
-`gatsby new gatsby-starter-stellar https://github.com/codebushi/gatsby-starter-stellar`
+## Development / Contributing
 
 Run `gatsby develop` in the terminal to start.
