@@ -11,7 +11,7 @@ const Header = (props) => (
             <Link to="/"><img src={logo} alt="Armour Veterinary Ophthalmology" /></Link>
             <span className="large-span">
                 <h1>Now Open!</h1>
-                <p>Ophthalmology specialist for pets, servicing DC and surrounding areas. Accepting appointements and consults immediately.</p>
+                <p>Ophthalmology specialist for pets, servicing DC and surrounding areas. Accepting appointments and consults immediately.</p>
             </span>
         </div>
         <div className="smoosh">
