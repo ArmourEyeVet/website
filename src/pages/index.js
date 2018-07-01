@@ -51,6 +51,9 @@ class Index extends React.Component {
                   Armour Veterinary Ophthalmology brings excellent ophthalmic care to patients within the District of Columbia. My team focuses on exceptional quality while providing the highest standards of patient care and client communication. I offer specialty services including phacoemulsification for cataracts, endocyclophotocoagulation for glaucoma, medical management of chronic dry eye and revolutionizing corneal disease therapy. 
                   I am so excited to join the innovative team at Friendship Hospital for Animals.  The doctors and staff are so friendly and caring; it is wonderful to work as a collective group where general practitioners, emergency veterinarians and specialty veterinarians can all provide the best care for your pet. 
                   I enjoy offering the gold standard of medical and surgical care for ophthalmic diseases in our pets. In particular, I enjoy collaboration with human ophthalmologists in the field of corneal diseases, glaucoma and cataracts.
+                 </p>
+                 <h3>About Dr. Armour</h3>
+                 <p>
                   Micki Armour VMD, DACVO grew up in the Washington DC area and attended Holton-Arms School in Bethesda, Maryland. When I was growing up in the area, my own pets were patients at Friendship Hospital for Animals.  My husband Phil and I have 3 sons, Brayden, Finn and Eric. I enjoy running, skiing, ice hockey (go Caps!) and being active with the boys. My first-born "children" Brody (a black lab) and Sam (a boxer) love to hike in Great Falls park.
                 </p>
                <span className="body-text">
@@ -69,7 +72,7 @@ class Index extends React.Component {
                    <li>Feline herpesvirus</li>
                    <li>Retinopathies - SARDS, retinal degeneration, progressive retinal atrophy</li>
                    <li>Pigmentary Uveitis of Golden Retrievers</li>
-                   <li>Eyelid diseases - entropion/ectropion, ectopic cilia/distichia/trichiass</li>
+                   <li>Eyelid diseases - entropion/ectropion, ectopic cilia/distichia/trichiasis</li>
                    <li>Prolapsed third eyelid gland (“cherry eye”)</li>
                  </ul>
                </span>
@@ -89,8 +92,9 @@ class Index extends React.Component {
                    <li>Corneal transplant</li>
                  </ul>
                </span>
-              <p>Appointments are available Monday through Friday 8am-4:30pm
-                 Emergent cases can be referred directly or through the Friendship urgent care/ emergency service 
+              <p>Appointments are available <b>Monday through Friday 8am-4:30pm</b>
+                <br/>
+                Emergent cases can be referred directly or through the Friendship urgent care/ emergency service 
               </p>
               <p>
                 To request an appointment, call (202) 567-2089 or email Info@ArmourEyeVet.com
@@ -120,7 +124,8 @@ class Index extends React.Component {
             <p>Parking is available off Brandywine Street in our private garage below the building.  Additionally, metered parking is available on surrounding streets and parking garages.  We are happy to reimburse for any costs associated with parking if you bring your receipt to the front desk.</p>
             <br/>
             <h3><b>AVO Direct Phone:</b> (202) 567-2089</h3>
-              <h3><b>Friendship's General Phone:</b> (202) 567-2089</h3>
+              <h3><b>Friendship's General Phone:</b> (202) 363-7300</h3>
+              <h3><b>Fax:</b> (202) 363-7126</h3>
               <h3><b>Email:</b> <a href="mailto:Info@ArmourEyeVet.com">Info@ArmourEyeVet.com</a></h3>
 
           </section>
