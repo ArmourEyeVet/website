@@ -45,86 +45,87 @@ class Index extends React.Component {
             <div className="spotlight">
               <div className="content">
                 <header className="major">
-                  <h2>Ipsum sed adipiscing</h2>
+                  <h1>Introduction</h1>
                 </header>
-                <p>Sed lorem ipsum dolor sit amet nullam consequat feugiat consequat magna
-                adipiscing magna etiam amet veroeros. Lorem ipsum dolor tempus sit cursus.
-                Tempus nisl et nullam lorem ipsum dolor sit amet aliquam.</p>
+                <p>
+                  Armour Veterinary Ophthalmology brings excellent ophthalmic care to patients within the District of Columbia. My team focuses on exceptional quality while providing the highest standards of patient care and client communication. I offer specialty services including phacoemulsification for cataracts, endocyclophotocoagulation for glaucoma, medical management of chronic dry eye and revolutionizing corneal disease therapy. 
+                  I am so excited to join the innovative team at Friendship Hospital for Animals.  The doctors and staff are so friendly and caring; it is wonderful to work as a collective group where general practitioners, emergency veterinarians and specialty veterinarians can all provide the best care for your pet. 
+                  I enjoy offering the gold standard of medical and surgical care for ophthalmic diseases in our pets. In particular, I enjoy collaboration with human ophthalmologists in the field of corneal diseases, glaucoma and cataracts.
+                  Micki Armour VMD, DACVO grew up in the Washington DC area and attended Holton-Arms School in Bethesda, Maryland. When I was growing up in the area, my own pets were patients at Friendship Hospital for Animals.  My husband Phil and I have 3 sons, Brayden, Finn and Eric. I enjoy running, skiing, ice hockey (go Caps!) and being active with the boys. My first-born "children" Brody (a black lab) and Sam (a boxer) love to hike in Great Falls park.
+                </p>
+               <p>
+                 Commonly treated conditions:
+                 <ul>
+                   <li>Indolent ulceration</li>
+                   <li>Deep stromal ulcerations and corneal rupture</li>
+                   <li>Cataracts and cataract surgery</li>
+                   <li>Glaucoma - primary and secondary</li>
+                   <li>Endothelial decompensation</li>
+                   <li>Corneal dystrophy and degeneration</li>
+                   <li>Uveitis</li>
+                   <li>Immune mediated keratitis/Episcleritis</li>
+                   <li>Keratoconjunctivitis sicca</li>
+                   <li>Corneal sequestrum</li>
+                   <li>Feline herpesvirus</li>
+                   <li>Retinopathies - SARDS, retinal degeneration, progressive retinal atrophy</li>
+                   <li>Pigmentary Uveitis of Golden Retrievers</li>
+                   <li>Eyelid diseases - entropion/ectropion, ectopic cilia/distichia/trichiass</li>
+                   <li>Prolapsed third eyelid gland (“cherry eye”)</li>
+                 </ul>
+               </p>
+               <p>
+                 Armour Veterinary Ophthalmology offers the following diagnostic tests and therapeutic options:
+                 <ul>
+                   <li>Schirmer tear test, rebound tonometry, tear film assessment, fluorescein stain</li>
+                   <li>Gonioscopy</li>
+                   <li>Ocular ultrasonography</li>
+                   <li>Electroretinography</li>
+                   <li>Endocyclophotocoagulation and goniovalve placement for glaucoma</li>
+                   <li>Transscleral photocoagulation</li>
+                   <li>Cryotherapy</li>
+                   <li>Retinopexy</li>
+                   <li>Corneal transplant</li>
+                 </ul>
+               </p>
+              <p>Appointments are available Monday through Friday 8am-4:30pm
+                 Emergent cases can be referred directly or through the Friendship urgent care/ emergency service 
+              </p>
+              <p>
+                To request an appointment, call (202) 567-2089 or email Info@ArmourEyeVet.com
+              </p>
+              <p>
+                 If you are a primary care veterinarian and would like to schedule a lunch and learn, please email Info@ArmourEyeVet.com or contact Kathy Leef at (443) 398-0830 
+               </p>
+
                 <ul className="actions">
-                  <li><Link to="/generic" className="button">Learn More</Link></li>
+                  <li><Link to="" className="button">Learn More</Link></li>
                 </ul>
               </div>
-              <span className="image"><img src={pic01} alt="" /></span>
+              {/* <span className="image"><img src={pic01} alt="" /></span> */}
             </div>
           </section>
 
-          <section id="first" className="main special">
+          <section id="contact" className="main special">
             <header className="major">
-              <h2>Magna veroeros</h2>
+              <h1>Location and Contact Information</h1>
+
+              <h3><b>AVO located inside Friendship Hospital for Animals</b></h3>
+              <h3>4105 Brandywine St. N.W. Washington, DC 20016<br/></h3>
+              <h3><b>Hours of Operation:</b> M-F 8 a.m - 4:30 p.m., EST</h3>
+              <p>Emergent cases can be referred directly or through the Friendship urgent care/emergency service</p>
             </header>
-            <ul className="features">
-              <li>
-                <span className="icon major style1 fa-code"></span>
-                <h3>Ipsum consequat</h3>
-                <p>Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat.</p>
-              </li>
-              <li>
-                <span className="icon major style3 fa-copy"></span>
-                <h3>Amed sed feugiat</h3>
-                <p>Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat.</p>
-              </li>
-              <li>
-                <span className="icon major style5 fa-diamond"></span>
-                <h3>Dolor nullam</h3>
-                <p>Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat.</p>
-              </li>
-            </ul>
-            <footer className="major">
-              <ul className="actions">
-                <li><Link to="/generic" className="button">Learn More</Link></li>
-              </ul>
-            </footer>
+            <iframe src="http://maps.google.com/maps?q=4105+Brandywine+Street+N.W.,+Washington,+DC+20016&amp;hl=en&amp;ie=UTF8&amp;g=4105+Brandywine+Street+N.W.,+Washington,+DC+20016&amp;s=AARTsJpMOc6f6HuQ12r22IOyA1JP74hwdQ&amp;ll=38.949799,-77.080829&amp;spn=0.005841,0.00912&amp;z=16&amp;iwloc=addr&amp;output=embed" marginWidth="0" marginHeight="0" scrolling="no" width="100%" height="350" frameBorder="0"></iframe>
+            <p>Parking is available off Brandywine Street in our private garage below the building.  Additionally, metered parking is available on surrounding streets and parking garages.  We are happy to reimburse for any costs associated with parking if you bring your receipt to the front desk.</p>
+            <br/>
+            <h3><b>AVO Direct Phone:</b> (202) 567-2089</h3>
+              <h3><b>Friendship's General Phone:</b> (202) 567-2089</h3>
+              <h3><b>Email:</b> <a href="mailto:Info@ArmourEyeVet.com">Info@ArmourEyeVet.com</a></h3>
+
           </section>
 
-          <section id="second" className="main special">
+          {/* <section id="cta" className="main special">
             <header className="major">
-              <h2>Ipsum consequat</h2>
-              <p>Donec imperdiet consequat consequat. Suspendisse feugiat congue<br />
-              posuere. Nulla massa urna, fermentum eget quam aliquet.</p>
-            </header>
-            <ul className="statistics">
-              <li className="style1">
-                <span className="icon fa-code-fork"></span>
-                <strong>5,120</strong> Etiam
-              </li>
-              <li className="style2">
-                <span className="icon fa-folder-open-o"></span>
-                <strong>8,192</strong> Magna
-              </li>
-              <li className="style3">
-                <span className="icon fa-signal"></span>
-                <strong>2,048</strong> Tempus
-              </li>
-              <li className="style4">
-                <span className="icon fa-laptop"></span>
-                <strong>4,096</strong> Aliquam
-              </li>
-              <li className="style5">
-                <span className="icon fa-diamond"></span>
-                <strong>1,024</strong> Nullam
-              </li>
-            </ul>
-            <p className="content">Nam elementum nisl et mi a commodo porttitor. Morbi sit amet nisl eu arcu faucibus hendrerit vel a risus. Nam a orci mi, elementum ac arcu sit amet, fermentum pellentesque et purus. Integer maximus varius lorem, sed convallis diam accumsan sed. Etiam porttitor placerat sapien, sed eleifend a enim pulvinar faucibus semper quis ut arcu. Ut non nisl a mollis est efficitur vestibulum. Integer eget purus nec nulla mattis et accumsan ut magna libero. Morbi auctor iaculis porttitor. Sed ut magna ac risus et hendrerit scelerisque. Praesent eleifend lacus in lectus aliquam porta. Cras eu ornare dui curabitur lacinia.</p>
-            <footer className="major">
-              <ul className="actions">
-                <li><Link to="/generic" className="button">Learn More</Link></li>
-              </ul>
-            </footer>
-          </section>
-
-          <section id="cta" className="main special">
-            <header className="major">
-              <h2>Congue imperdiet</h2>
+              <h2>Make and Appointment</h2>
               <p>Donec imperdiet consequat consequat. Suspendisse feugiat congue<br />
               posuere. Nulla massa urna, fermentum eget quam aliquet.</p>
             </header>
@@ -134,7 +135,7 @@ class Index extends React.Component {
                 <li><Link to="/generic" className="button">Learn More</Link></li>
               </ul>
             </footer>
-          </section>
+          </section> */}
 
         </div>
 
