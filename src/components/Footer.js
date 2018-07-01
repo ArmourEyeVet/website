@@ -3,12 +3,33 @@ import Link from 'gatsby-link'
 
 const Footer = (props) => (
     <footer id="footer">
-        <section>
+        <section>     
             <h2>Part of a great team</h2>
             <p>AVO provides state of the art, comprehensive ophthalmic services for our clients and patients. But, more than that, we provide a caring team who understands the unique human-animal bond.</p>
             <ul className="actions">
-                <li><Link to="/generic" className="button">View Our Services</Link></li>
+                {/* <li><Link to="/generic" className="button">View Our Services</Link></li> */}
+                <li>
+                {/* <div id="mc_embed_signup"> */}
+                <form action="https://ArmourEyeVet.us18.list-manage.com/subscribe/post?u=a1c8885ddbf605a37715f6bcd&amp;id=943e23ae61" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" noValidate>
+                    {/* <label for="mce-EMAIL">Subscribe to our mailing list</label> */}
+                    <h2>Subscribe to our mailing list</h2>
+                    <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required/>
+                    <div id="mce-responses" class="clear">
+                            <div class="response" id="mce-error-response" ></div>
+                            <div class="response" id="mce-success-response" ></div>
+                    </div>
+                    <div id="mc_hide" aria-hidden="true">
+                        <input type="text" name="b_a1c8885ddbf605a37715f6bcd_943e23ae61" tabIndex="-1" value=""/>
+                    </div>
+                    <div class="clear">
+                        <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"/>
+                    </div>
+                </form>
+                {/* </div> */}
+                </li>
             </ul>
+
+
         </section>
         <section>
             <h2>Armour Veterinary Ophthalmology</h2>
