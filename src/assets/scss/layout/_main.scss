@@ -33,6 +33,15 @@
 					border-bottom-left-radius: 0;
 				}
 			}
+
+			//TODO: cleanup! it's a bit of a hack but it's working for now
+			p {
+				color: black;
+			}
+
+			.body-text {
+				color: black;
+			}
 		}
 
 		@include breakpoint(large) {
