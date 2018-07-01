@@ -28,14 +28,16 @@
 		.image {
 			display: inline-block;
 			margin-left: 4em;
-			padding: 0.65em;
-			border-radius: 100%;
+			padding: 0em;
+			border-radius: 0%;
 			border: solid 1px;
+			vertical-align: middle;
 
 			img {
 				display: block;
-				border-radius: 100%;
+				border-radius: 0%;
 				width: 16em;
+
 			}
 		}
 
@@ -49,12 +51,20 @@
 
 				header {
 					&.major {
+						h1 {
+							&:after {
+								margin-left: auto;
+								margin-right: auto;
+							}
+						}
+						
 						h2 {
 							&:after {
 								margin-left: auto;
 								margin-right: auto;
 							}
 						}
+
 					}
 				}
 			}

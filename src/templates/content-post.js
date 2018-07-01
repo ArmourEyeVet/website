@@ -3,7 +3,7 @@ import Helmet from 'react-helmet'
 import Link from 'gatsby-link'
 import get from 'lodash/get'
 
-class BlogPostTemplate extends React.Component {
+class ContentTemplate extends React.Component {
   render() {
     const post = this.props.data.markdownRemark
     const siteTitle = get(this.props, 'data.site.siteMetadata.title')
@@ -11,20 +11,32 @@ class BlogPostTemplate extends React.Component {
     return (
       <div>
         <Helmet title={`${post.frontmatter.title} | ${siteTitle}`} />
-        <h1>{post.frontmatter.title}</h1>
-        <p>
-          {post.frontmatter.date}
-        </p>
-        <div dangerouslySetInnerHTML={{ __html: post.html }} />
+        <div id="main">
+
+          <section id="intro" className="main">
+            <div className="spotlight">
+
+              <div className="content">
+                <header className="major">
+                  <h1>{post.frontmatter.title}</h1>
+                </header>
+                <div dangerouslySetInnerHTML={{ __html: post.html }} />
+              </div>
+            </div>
+          </section>
+
+          
+        </div>
       </div>
+
     )
   }
 }
 
-export default BlogPostTemplate
+export default ContentTemplate
 
 export const pageQuery = graphql`
-  query BlogPostByPath($path: String!) {
+  query ContentByPath($path: String!) {
     site {
       siteMetadata {
         title

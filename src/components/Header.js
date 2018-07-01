@@ -5,8 +5,9 @@ import logo from '../assets/images/logo.svg';
 
 const Header = (props) => (
     <header id="header" className="alt">
-        <span className="logo"><img src={logo} alt="Armour Veterinary Ophthalmology" /></span>
-        <h2>Caring for all of your pets' eye care needs</h2>
+        <span className="logo">
+            <Link to="/"><img src={logo} alt="Armour Veterinary Ophthalmology" /></Link>
+        </span>
     </header>
 )
 

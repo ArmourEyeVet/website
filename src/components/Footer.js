@@ -18,7 +18,7 @@ const Footer = (props) => (
                 <dt>Phone</dt>
                 <dd>(202) 567-2089</dd>
                 <dt>Email</dt>
-                <dd><a href="mailto:info@armoureyevet.com">info@armourEyeVet.com</a></dd>
+                <dd><a href="mailto:info@armoureyevet.com">Info@ArmourEyeVet.com</a></dd>
             </dl>
             <ul className="icons">
                 <li><a href="https://www.facebook.com/ArmourEyeVet" className="icon fa-facebook alt"><span className="label">Facebook</span></a></li>
