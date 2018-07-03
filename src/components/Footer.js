@@ -1,9 +1,7 @@
 import React from 'react'
 import Link from 'gatsby-link'
 
-import MCForm from './MCForm'
-
-import logo from '../assets/images/logo.svg';
+// import MCForm from './MCForm'
 
 const Footer = (props) => (
     <footer id="footer">

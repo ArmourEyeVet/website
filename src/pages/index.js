@@ -6,7 +6,9 @@ import Waypoint from 'react-waypoint'
 
 import Header from '../components/Header'
 import Nav from '../components/Nav'
-import pic01 from '../assets/images/pic01.jpg'
+import pic01 from '../assets/images/dr_armour_and_boston.png'
+import fhaLogo from '../assets/images/fha-logo.png';
+import fhaLogo2 from '../assets/images/fha-logo.svg';
 
 class Index extends React.Component {
   constructor(props) {
@@ -44,11 +46,36 @@ class Index extends React.Component {
           <section id="intro" className="main">
             <div className="spotlight">
               <div className="content">
+
                 <header className="major">
-                  <h1>Introduction</h1>
+                  <h1>AVO is now open!</h1>
                 </header>
+                <div>
+                  <h2>Ophthalmology @ Friendship Animal Hospital</h2>
+                  <p>
+                    Armour Veterinary Ophthalmology (AVO) is now open for business!
+                    We provide ophthalmic specialty services for your pets in and around the DC area.
+                    AVO is proud to be joining the many great specialists and general practice vets at <a href="http://www.friendshiphospital.com/">Friendship Hospital for Animals</a>
+                  </p>
+                  <div className="fha align-center"><a className="plain" href="http://www.friendshiphospital.com/">
+                    <img src={fhaLogo2} alt="Friendship Hospital for Animals" />
+                  </a></div>
+                </div>
+
+              </div>
+              <span className="image"><img src={pic01} alt="" /></span>
+            </div>
+          </section>
+
+          <section id="about" className="main">
+            <div className="spotlight">
+              <div className="content">
+                <header className="major">
+                  <h1>About AVO</h1>
+                </header>
+
                 <p>
-                  Armour Veterinary Ophthalmology brings excellent ophthalmic care to patients within the District of Columbia. My team focuses on exceptional quality while providing the highest standards of patient care and client communication. I offer specialty services including phacoemulsification for cataracts, endocyclophotocoagulation for glaucoma, medical management of chronic dry eye and revolutionizing corneal disease therapy. 
+                  Armour Veterinary Ophthalmology, lead by Dr. Micki Armour, brings excellent ophthalmic care to patients within the District of Columbia. My team focuses on exceptional quality while providing the highest standards of patient care and client communication. I offer specialty services including phacoemulsification for cataracts, endocyclophotocoagulation for glaucoma, medical management of chronic dry eye and revolutionizing corneal disease therapy. 
                   I am so excited to join the innovative team at Friendship Hospital for Animals.  The doctors and staff are so friendly and caring; it is wonderful to work as a collective group where general practitioners, emergency veterinarians and specialty veterinarians can all provide the best care for your pet. 
                   I enjoy offering the gold standard of medical and surgical care for ophthalmic diseases in our pets. In particular, I enjoy collaboration with human ophthalmologists in the field of corneal diseases, glaucoma and cataracts.
                  </p>
@@ -103,9 +130,9 @@ class Index extends React.Component {
                  If you are a primary care veterinarian and would like to schedule a lunch and learn, please email Info@ArmourEyeVet.com or contact Kathy Leef at (443) 398-0830 
                </p>
 
-                <ul className="actions">
+                {/* <ul className="actions">
                   <li><Link to="" className="button">Learn More</Link></li>
-                </ul>
+                </ul> */}
               </div>
               {/* <span className="image"><img src={pic01} alt="" /></span> */}
             </div>
@@ -123,10 +150,10 @@ class Index extends React.Component {
             <iframe src="https://maps.google.com/maps?q=4105+Brandywine+Street+N.W.,+Washington,+DC+20016&amp;hl=en&amp;ie=UTF8&amp;g=4105+Brandywine+Street+N.W.,+Washington,+DC+20016&amp;s=AARTsJpMOc6f6HuQ12r22IOyA1JP74hwdQ&amp;ll=38.949799,-77.080829&amp;spn=0.005841,0.00912&amp;z=16&amp;iwloc=addr&amp;output=embed" marginWidth="0" marginHeight="0" scrolling="no" width="100%" height="350" frameBorder="0"></iframe>
             <p>Parking is available off Brandywine Street in our private garage below the building.  Additionally, metered parking is available on surrounding streets and parking garages.  We are happy to reimburse for any costs associated with parking if you bring your receipt to the front desk.</p>
             <br/>
-            <h3><b>AVO Direct Phone:</b> (202) 567-2089</h3>
-              <h3><b>Friendship's General Phone:</b> (202) 363-7300</h3>
-              <h3><b>Fax:</b> (202) 363-7126</h3>
-              <h3><b>Email:</b> <a href="mailto:Info@ArmourEyeVet.com">Info@ArmourEyeVet.com</a></h3>
+            <h3><b>AVO's Direct Phone:</b> (202) 567-2089</h3>
+            <h3><b>Friendship's General Phone:</b> (202) 363-7300</h3>
+            <h3><b>Fax:</b> (202) 363-7126</h3>
+            <h3><b>Email:</b> <a href="mailto:Info@ArmourEyeVet.com">Info@ArmourEyeVet.com</a></h3>
 
           </section>
 
