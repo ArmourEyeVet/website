@@ -51,11 +51,11 @@ class Index extends React.Component {
                   <h1>AVO is now open!</h1>
                 </header>
                 <div>
-                  <h2>Ophthalmology @ Friendship Animal Hospital</h2>
+                  <h2>Ophthalmology @ Friendship Hospital for Animals</h2>
                   <p>
                     Armour Veterinary Ophthalmology (AVO) is now open for business!
                     We provide ophthalmic specialty services for your pets in and around the DC area.
-                    AVO is proud to be joining the many great specialists and general practice vets at <a href="http://www.friendshiphospital.com/">Friendship Hospital for Animals</a>
+                    AVO is proud to be joining the many great specialists and primary care vets at <a href="http://www.friendshiphospital.com/">Friendship Hospital for Animals</a>
                   </p>
                   <div className="fha align-center"><a className="plain" href="http://www.friendshiphospital.com/">
                     <img src={fhaLogo2} alt="Friendship Hospital for Animals" />
