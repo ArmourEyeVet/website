@@ -10,6 +10,12 @@
 		@include color(invert);
 		border-radius: _size(border-radius-main);
 
+		.fha {
+			background-color:   #243511;
+			@include padding(1em, 1em);
+			width: calc(30% + 8em);
+		}
+
 		> .main {
 			@include padding(5em, 5em);
 			border-top: solid 1px _palette(invert, border);
