@@ -61,6 +61,11 @@ class Index extends React.Component {
                     <img src={fhaLogo2} alt="Friendship Hospital for Animals" />
                   </a></div>
                 </div>
+                <footer className="major">
+                  <ul className="actions">
+                    <li><Link to="/appointment" className="button special">Make an Appointment</Link></li>
+                  </ul>
+                </footer>
 
               </div>
               <span className="image"><img src={pic01} alt="" /></span>
