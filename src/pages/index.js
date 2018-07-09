@@ -160,6 +160,13 @@ class Index extends React.Component {
             <h3><b>Fax:</b> (202) 363-7126</h3>
             <h3><b>Email:</b> <a href="mailto:Info@ArmourEyeVet.com">Info@ArmourEyeVet.com</a></h3>
 
+            <footer className="major">
+              <ul className="actions">
+                <li><Link to="/appointment" className="button special">Make an Appointment</Link></li>
+              </ul>
+            </footer>
+
+
           </section>
 
           {/* <section id="cta" className="main special">

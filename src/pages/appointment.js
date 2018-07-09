@@ -29,7 +29,7 @@ class Appointment extends React.Component {
       <div>
         <Helmet title={get(this, 'props.data.site.siteMetadata.title')} />
         
-        <Link to="/">
+        <Link to="/appointment">
         <Header />
         </Link>
 
