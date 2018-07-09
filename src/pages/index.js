@@ -61,6 +61,11 @@ class Index extends React.Component {
                     <img src={fhaLogo2} alt="Friendship Hospital for Animals" />
                   </a></div>
                 </div>
+                <footer className="major">
+                  <ul className="actions">
+                    <li><Link to="/appointment" className="button special">Make an Appointment</Link></li>
+                  </ul>
+                </footer>
 
               </div>
               <span className="image"><img src={pic01} alt="" /></span>
@@ -154,6 +159,13 @@ class Index extends React.Component {
             <h3><b>Friendship's General Phone:</b> (202) 363-7300</h3>
             <h3><b>Fax:</b> (202) 363-7126</h3>
             <h3><b>Email:</b> <a href="mailto:Info@ArmourEyeVet.com">Info@ArmourEyeVet.com</a></h3>
+
+            <footer className="major">
+              <ul className="actions">
+                <li><Link to="/appointment" className="button special">Make an Appointment</Link></li>
+              </ul>
+            </footer>
+
 
           </section>
 
