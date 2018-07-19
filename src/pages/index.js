@@ -153,7 +153,7 @@ class Index extends React.Component {
               <p>Emergent cases can be referred directly or through the Friendship urgent care/emergency service</p>
             </header>
             <iframe src="https://maps.google.com/maps?q=4105+Brandywine+Street+N.W.,+Washington,+DC+20016&amp;hl=en&amp;ie=UTF8&amp;g=4105+Brandywine+Street+N.W.,+Washington,+DC+20016&amp;s=AARTsJpMOc6f6HuQ12r22IOyA1JP74hwdQ&amp;ll=38.949799,-77.080829&amp;spn=0.005841,0.00912&amp;z=16&amp;iwloc=addr&amp;output=embed" marginWidth="0" marginHeight="0" scrolling="no" width="100%" height="350" frameBorder="0"></iframe>
-            <p>Parking is available off Brandywine Street in our private garage below the building.  Additionally, metered parking is available on surrounding streets and parking garages.  We are happy to reimburse for any costs associated with parking if you bring your receipt to the front desk.</p>
+            <p>Parking is available off Brandywine Street in our private garage below the building.  Additionally, metered parking is available on surrounding streets and parking garages.</p>
             <br/>
             <h3><b>AVO's Direct Phone:</b> (202) 567-2089</h3>
             <h3><b>Friendship's General Phone:</b> (202) 363-7300</h3>
