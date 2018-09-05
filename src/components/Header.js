@@ -5,7 +5,9 @@ import logo from '../assets/images/avo-logo.svg';
 
 const Header = (props) => (
     <header id="header" className="alt">
+        <Link to="/" className="none">
         <span className="logo"><img src={logo} alt="Armour Veterinary Ophthalmology" /></span>
+        </Link>
     </header>
 )
 

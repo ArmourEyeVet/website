@@ -1,13 +1,14 @@
 import React from 'react'
+import Helmet from 'react-helmet'
 import Link from 'gatsby-link'
 import get from 'lodash/get'
-import Helmet from 'react-helmet'
 import Waypoint from 'react-waypoint'
 
 import Header from '../components/Header'
 import Nav from '../components/HackNav'
 
-class Appointment extends React.Component {
+
+class ContentTemplate extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -24,13 +25,17 @@ class Appointment extends React.Component {
   }
 
   render() {
+    const post = this.props.data.markdownRemark
+    const siteTitle = get(this.props, 'data.site.siteMetadata.title')
 
     return (
+
+
       <div>
         <Helmet title={get(this, 'props.data.site.siteMetadata.title')} />
-        
+
         <Header />
-        
+
         <Waypoint
           onEnter={this._handleWaypointEnter}
           onLeave={this._handleWaypointLeave}
@@ -40,36 +45,48 @@ class Appointment extends React.Component {
 
         <div id="main">
 
-          <section id="appointment" className="main">
+          <section id="Diseases" className="main">
             <div className="spotlight">
-
               <div className="content">
-                <header className="major">
-                  <h1>Request an Appointment</h1>
-                </header>
-                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfwjdP_6XOv4-QAjVGwaCCwdwxogvYZCB3D_FUXBcLFhQQ56A/viewform?embedded=true" width="100%" height="3040" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
-              </div>
 
+                <header className="major">
+                  <h1>{post.frontmatter.title}</h1>
+                </header>
+                <div>
+                  <p>
+                   <div dangerouslySetInnerHTML={{ __html: post.html }} />
+                  </p>
+                </div>
+
+              </div>
             </div>
           </section>
-
+        
+          </div>
+        
         </div>
-      </div>
+
+
     )
   }
 }
 
-Appointment.propTypes = {
-  route: React.PropTypes.object,
-}
-
-export default Appointment
+export default ContentTemplate
 
 export const pageQuery = graphql`
-  query AppointmentQuery {
+  query ContentByPath($path: String!) {
     site {
       siteMetadata {
         title
+        author
+      }
+    }
+    markdownRemark(frontmatter: { path: { eq: $path } }) {
+      id
+      html
+      frontmatter {
+        title
+        date(formatString: "MMMM DD, YYYY")
       }
     }
   }
