@@ -1,5 +1,7 @@
 import React from 'react'
 import Link from 'gatsby-link'
+import vvmaLogo from '../assets/images/vvma-logo.png';
+
 
 // import MCForm from './MCForm'
 
@@ -10,6 +12,11 @@ const Footer = (props) => (
             <p>AVO provides state of the art, comprehensive ophthalmic services for our clients and patients. But, more than that, we provide a caring team who understands the unique human-animal bond.</p>
             
             
+            <div className="fha align-center" style={{width: '100px'}}>
+                <img src={vvmaLogo} alt="Virginia Veterinary Medical Association" style={{maxWidth:"100%"}}/>
+            </div>
+
+
             {/* TODO: Needs Captcha support!
             <h3>Join our mailing list</h3>
             <MCForm/> 
@@ -39,6 +46,8 @@ const Footer = (props) => (
                 </div>
                 </li>
             </ul> */}
+
+
         </section>
 
         <section>

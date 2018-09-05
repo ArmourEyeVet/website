@@ -149,7 +149,7 @@ class Index extends React.Component {
 
               <h3><b>AVO located inside Friendship Hospital for Animals</b></h3>
               <h3>4105 Brandywine St. N.W. Washington, DC 20016<br/></h3>
-              <h3><b>Hours of Operation:</b> M-F 8 a.m - 4:30 p.m., EST</h3>
+              <h3><b>Hours of Operation:</b> M-F 8 a.m - 4:00 p.m., EST</h3>
               <p>Emergent cases can be referred directly or through the Friendship urgent care/emergency service</p>
             </header>
             <iframe src="https://maps.google.com/maps?q=4105+Brandywine+Street+N.W.,+Washington,+DC+20016&amp;hl=en&amp;ie=UTF8&amp;g=4105+Brandywine+Street+N.W.,+Washington,+DC+20016&amp;s=AARTsJpMOc6f6HuQ12r22IOyA1JP74hwdQ&amp;ll=38.949799,-77.080829&amp;spn=0.005841,0.00912&amp;z=16&amp;iwloc=addr&amp;output=embed" marginWidth="0" marginHeight="0" scrolling="no" width="100%" height="350" frameBorder="0"></iframe>
