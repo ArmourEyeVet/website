@@ -64,6 +64,7 @@ class Index extends React.Component {
                 <footer className="major">
                   <ul className="actions">
                     <li><Link to="/appointment" className="button special">Make an Appointment</Link></li>
+                    <li><Link to="/refill" className="button special">Prescription Refill</Link></li>
                   </ul>
                 </footer>
 
@@ -163,6 +164,7 @@ class Index extends React.Component {
             <footer className="major">
               <ul className="actions">
                 <li><Link to="/appointment" className="button special">Make an Appointment</Link></li>
+                <li><Link to="/refill" className="button special">Prescription Refill</Link></li>
               </ul>
             </footer>
 
