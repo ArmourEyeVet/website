@@ -7,14 +7,14 @@ path: "/diseases-conditions/"
 ## Commonly Treated Conditions
 * Indolent ulceration
 * Deep stromal ulcerations and corneal rupture
-* [Cataracts](diseases-conditions/cataract) and [cataract surgery](diseases-conditions/cataract-surgery)
+* [Cataracts](cataract) and [cataract surgery](cataract-surgery)
 * Glaucoma - primary and secondary
 * Endothelial decompensation
-* [Corneal dystrophy](diseases-conditions/corneal-dystrophy) and [Corneal degeneration](diseases-conditions/corneal-mineral-degeneration)
+* [Corneal dystrophy](corneal-dystrophy) and [Corneal degeneration](corneal-mineral-degeneration)
 * Uveitis
 * Immune mediated keratitis/Episcleritis
 * Keratoconjunctivitis sicca
-* [Corneal sequestrum](diseases-conditions/corneal-sequestrum)
+* [Corneal sequestrum](corneal-sequestrum)
 * Feline herpesvirus
 * Retinopathies - SARDS, retinal degeneration, progressive retinal atrophy
 * Pigmentary Uveitis of Golden Retrievers
