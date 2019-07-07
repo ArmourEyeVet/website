@@ -3,7 +3,7 @@ import Helmet from 'react-helmet'
 import Link from 'gatsby-link'
 import get from 'lodash/get'
 
-class BlogPostTemplate extends React.Component {
+class ContentTemplate extends React.Component {
   render() {
     const post = this.props.data.markdownRemark
     const siteTitle = get(this.props, 'data.site.siteMetadata.title')
@@ -21,10 +21,10 @@ class BlogPostTemplate extends React.Component {
   }
 }
 
-export default BlogPostTemplate
+export default ContentTemplate
 
 export const pageQuery = graphql`
-  query BlogPostByPath($path: String!) {
+  query ContentByPath($path: String!) {
     site {
       siteMetadata {
         title
