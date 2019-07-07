@@ -42,7 +42,7 @@ class Appointment extends React.Component {
                 <header className="major">
                   <h1>Request a Prescription Refill</h1>
                 </header>
-                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdGIW2-qod8oGSs0nlCm2q0L8GbIXZm-3eUc5UYQ3NSi3l5RA/viewform?embedded=true" width="100%" height="2140" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdGIW2-qod8oGSs0nlCm2q0L8GbIXZm-3eUc5UYQ3NSi3l5RA/viewform?embedded=true" width="100%" height="2140" frameBorder="0" marginHeight="0" marginWidth="0">Loading...</iframe>
               </div>
 
             </div>
